@@ -55,6 +55,14 @@ a {
     text-align: center;
     margin: 2rem;
   }
+  .intro-text h1 {
+    background: #dfdfdf;
+    -webkit-text-fill-color: #154353;
+  }
+  .intro-text h2 {
+    background: #dfdfdf;
+    -webkit-text-fill-color: #154353;
+  }
   .intro-image svg {
     width: 45vh;
   }
@@ -175,7 +183,15 @@ nav {
   background: #dfdfdf;
 }
 
-.intro-text h1, .intro-text h2 {
+.intro-text h1 {
+  background: -webkit-gradient(linear, left top, right top, from(#ff6600), to(#ff00ea));
+  background: linear-gradient(left, #ff6600, #ff00ea);
+  display: inline-block;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.intro-text h2 {
   background: -webkit-gradient(linear, left top, right top, from(#ff6600), to(#ff00ea));
   background: linear-gradient(left, #ff6600, #ff00ea);
   display: inline-block;
